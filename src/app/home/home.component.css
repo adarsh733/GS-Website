@@ -23,11 +23,11 @@ a.navbar-title {
 
 header {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../assets/background.jpg');
+    url('../../assets/gs.jpg');
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../assets/background.jpg');
+    url('../../assets/gs.jpg');
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../assets/background.jpg');
+    url('../../assets/gs.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

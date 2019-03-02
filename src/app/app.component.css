@@ -1,12 +1,13 @@
 #nav-header {
   padding: 10px;
-  background: #fff;
+  background: floralwhite;
   box-shadow: 0px 0px 8px 0px #010101;
 }
 #nav-header span {
-  font-size: 1.5em;
-  padding-left: 10px;
-  font-family: 'Righteous', cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder; 
+  text-align: center;
+  
 }
 .table-center {
   vertical-align: middle;

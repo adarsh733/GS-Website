@@ -2,13 +2,17 @@
   <div id="nav-header">
     <img
       src="./assets/logo.png"
-      width="75px"
+      width="110px"
       class="img-responsive"
-      style="display:inline"
+      style="display:inline; float: left; padding-left: 20px"
     />
-    <span class="hidden-xs"
+    <span class="hidden-xs" style=" padding-left: 220px;font-size: 25px;"
       >SHRI G. S. INSTITUTE OF TECHNOLOGY &amp; SCIENCE, INDORE
     </span>
+    <span class="hidden-xs" style="font-size: 19px;  padding-left: 370px; "
+      >Govt. Aided Autonomous Institute Estd. In 1952</span><br>
+      <span class="hidden-xs" style="font-size: 15px; padding-left: 220px"
+      >Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal & Devi Ahilya Vishwavidyalaya, Indore</span> 
   </div>
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -26,8 +30,8 @@
               >VISION &amp; MISSION</a
             >
           </li>
-          <li><a scrollTo="target" routerLink="/peo-pso">PEO &amp; PSO</a></li>
-          <li><a scrollTo="target" routerLink="/po">PROGRAM OUTCOME</a></li>
+          <li><a scrollTo="target" routerLink="/about-us">PEO</a></li>
+          <li><a scrollTo="target" routerLink="/about-us">PROGRAM OUTCOME</a></li>
         </ul>
       </li>
       <li class="dropdown" class="text-center">
@@ -36,12 +40,12 @@
         ></a>
         <ul class="dropdown-menu">
           <li>
-            <a scrollTo="target" routerLink="/syllabus"
+            <a scrollTo="target" routerLink="/schemes"
               >SCHEME &amp; SYLLABUS</a
             >
           </li>
           <li>
-              <a scrollTo="target" routerLink="/syllabus"
+              <a scrollTo="target" routerLink="/courses"
                 >COURSES</a
               >
             </li>
@@ -51,12 +55,24 @@
         </ul>
       </li>
 
+      <li id="contact-us" class="text-center" class="dropdown">
+        <a scrollTo="target" routerLink="/contact-us" class="dropdown-toggle" data-toggle="dropdown" href="#">FACULTY<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a scrollTo="target" routerLink="/faculty">FACULTY</a>
+          </li>
+          <li>
+            <a scrollTo="target" routerLink="/staff">STAFF</a>
+          </li>
+        </ul>
+     
+      </li>
       <li class="dropdown" class="text-center">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"
           >FACILITIES <span class="caret"></span
         ></a>
         <ul class="dropdown-menu">
-          <li><a scrollTo="target" routerLink="/laboratory">LABORATORY</a></li>
+          <li><a scrollTo="target" routerLink="/lab">LABORATORY</a></li>
           <!-- <li><a scrollTo="target" routerLink="/laboratory">RESEARCH CELL</a></li> -->
         </ul>
       </li>
@@ -70,7 +86,7 @@
             <a scrollTo="target" routerLink="/achievements">ACHIEVEMENTS</a>
           </li>
           <li>
-            <a scrollTo="target" routerLink="/academic-performance"
+            <a scrollTo="target" routerLink="/academic"
               >ACADEMIC PERFORMANCE</a
             >
           </li>
@@ -114,26 +130,30 @@
           <a scrollTo="target" routerLink="/placements">PLACEMENTS</a>
         </li>
         
-      <li class="dropdown" class="text-center">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-          >PROFESSIONAL ACTIVITIES <span class="caret"></span
-        ></a>
-        <ul class="dropdown-menu">
-          <li>
-            <a scrollTo="target" routerLink="/professional-activities"
-              >IEEE &amp; CSI</a
-            >
-          </li>
-        </ul>
-      </li>
-
 
       <!--<li class="text-center"><a scrollTo="target" routerLink="/gallery">NEWS</a></li>-->
       <li id="" class="text-center">
         <a scrollTo="target" routerLink="/gallery">GALLERY</a>
       </li>
-      <li id="contact-us" class="text-center">
-        <a scrollTo="target" routerLink="/contact-us">CONTACT US</a>
+      <li id="" class="text-center">
+          <a scrollTo="target" routerLink="/news">NEWS &amp; EVENTS</a>
+        </li>
+        <li id="contact-us" class="text-center">
+          <a scrollTo="target" routerLink="/alumni">ALUMNI</a>
+        </li>
+     
+     
+        <li id="contact-us" class="text-center" class="dropdown">
+        <a scrollTo="target" routerLink="/contact-us" class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT US<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a scrollTo="target" routerLink="/contact">CONTACT US</a>
+          </li>
+          <li>
+            <a scrollTo="target" routerLink="/suggestions">GIVE YOUR VALUABLE SUGGESTIONS</a>
+          </li>
+        </ul>
+     
       </li>
     </ul>
   </div>
@@ -181,7 +201,7 @@
               >
             </li>
             <li>
-              <a scrollTo="target" routerLink="/peo-pso">PEO &amp; PSO</a>
+              <a scrollTo="target" routerLink="/peo-pso">PEO</a>
             </li>
             <li><a scrollTo="target" routerLink="/po">PROGRAM OUTCOME</a></li>
             <li><a scrollTo="target" routerLink="/gallery">GALLERY</a></li>

@@ -1,0 +1,88 @@
+
+a.navbar-brand
+{
+  font-size: 20px;
+  color: rgba(0,0,0,0.8);
+  font-family: 'Righteous',cursive;
+}
+.jumbotron
+{
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  padding-top: 200px;
+}
+#lab-back
+{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/background.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/background.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/background.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#labDetails
+{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+#labDetails table td {
+  vertical-align: middle;
+}
+.pads
+{
+  padding: 20px;
+}
+.table-grey
+{
+  background: #f1f1f1;
+}
+.table-gray
+{
+  background: #f9f9f9;
+}
+.tableBorder
+{
+  border-bottom:  0.1px solid #777;
+}
+.vertical-center
+{
+  position: relative;
+  top: 50%;
+}
+.margin-top-30
+{
+  margin-top: 30px;
+}
+.margin-top-20
+{
+  margin-top: 20px;
+}
+.padding-20
+{
+  padding: 20px;
+  padding-left: 0;
+}
+.table-orange
+{
+  background: #e76137;
+  color: white;
+}
+.table-yellow
+{
+  background: #f9b64c;
+  color: white;
+}
+li#lab>a
+{
+  color: orange !important;
+}
+h4
+{
+  font-size: 1.2em;
+}
